@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-code-sovereign"
+version = "0.1.0"
+description = "Zero-Dependency Runtime Governance Kernel, Prompt-Injection Firewall, Economic Circuit Breaker & Deterministic Time-Travel Replay for Claude Code"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Benni Alencar", email = "bennialencar@benni-os.net"},
+]
+keywords = [
+    "claude-code",
+    "anthropic",
+    "ai-agents",
+    "mcp",
+    "security",
+    "firewall",
+    "governance",
+    "time-travel-replay",
+    "bitemporal-memory",
+    "benni-os",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+claude-sovereign = "claude_code_sovereign.cli:main"
+
+[project.urls]
+Homepage = "https://benni-os.net"
+Repository = "https://github.com/Benni-OS/claude-code-sovereign"
+Issues = "https://github.com/Benni-OS/claude-code-sovereign/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
