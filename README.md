@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:1a1a2e,100:7000FF&height=200&section=header&text=claude-code-sovereign&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Zero-Dependency%20Runtime%20Governance%20Kernel%20for%20Claude%20Code&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img src="assets/banner_header.png" width="100%"/>
 
 <br/>
 
@@ -224,7 +224,7 @@ Need autonomous multi-agent swarm orchestration, private datacenter infrastructu
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000FF,50:1a1a2e,100:0D0D0D&height=120&section=footer" width="100%"/>
+<img src="assets/banner_footer.png" width="100%"/>
 
 **claude-code-sovereign** — *Zero-Dependency Runtime Governance Kernel for Claude Code* • [benni-os.net](https://benni-os.net) • `MIT License`
 
